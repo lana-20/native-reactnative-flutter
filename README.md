@@ -1,5 +1,5 @@
 # Cross-Platform (Hybrid-Native) Mobile Applications
-## Native, React Native, Flutter &amp; More
+## [Native, React Native, Flutter &amp; More](https://www.droidcon.com/2019/11/15/native-react-native-flutter-and-more/?video=380953234)
 
 In this post, I go over the main points in each framework and the process I use to decide which one to use on which project.
 
@@ -28,23 +28,23 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 * Hot Reloading - as you are writing your code, it just shows up on your device, it’s really fast, and pretty awesome overall.
 
 **Cons:**
-JS is not type-safe without additional tools - it’s really easy to get into a project quickly and say ‘I’m just going to add TypeScript later’. And before you know it, you have code that is just a mess and is not scalable.
-There are a lot of flavors - there are many ways to do it. If you do a quick Google search, you’ll find that’s true.
-Performance - there can be some performance issues.
-Bridging can be challenging - bridging on React Native for Android can be a big challenge, even worse than iOS for me personally.
-Debugging - if you’ve done React Native, you’ve seen the red screen of death come up. And it hardly gives any context as to what’s going on.
+* JS is not type-safe without additional tools - it’s really easy to get into a project quickly and say ‘I’m just going to add TypeScript later’. And before you know it, you have code that is just a mess and is not scalable.
+* There are a lot of flavors - there are many ways to do it. If you do a quick Google search, you’ll find that’s true.
+* Performance - there can be some performance issues.
+* Bridging can be challenging - bridging on React Native for Android can be a big challenge, even worse than iOS for me personally.
+* Debugging - if you’ve done React Native, you’ve seen the [red screen of death](https://stackoverflow.com/questions/36408309/react-native-run-android-red-screen-of-death) come up. And it [hardly gives any context](https://stackoverflow.com/questions/40903211/react-native-red-screen-error) as to what’s going on.
 
 
-***Flutter***
+[***Flutter***](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#flutter-2)
 
-**Pros:**
-* Type-safe (dart)
+[**Pros:**](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#pros-of-flutter-development)
+* Type-safe (Dart)
 * Supported by Google
 * Reusable components
 * Fast layout [engine]
 * Hot Reloading - just like React Native
 
-**Cons:**
+[**Cons:**](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#cons-of-flutter-development)
 * Young platform - many people I discussed Flutter with, question its stability. It’s the story of Flutter, it has a ton of potential, and given time, can become more stable.
 * Not a lot of resources
 * Need to bridge to native [platform]
@@ -90,7 +90,7 @@ Decide on what your goals for the platform are. Then, most importantly, write it
 
 **RESEARCH**
 
-* Talk to the devs and QA who have used each platform - talk to the people who have actually done it. Eg, I know somebody at AirBnB who did React Native and then pulled out. I talked to them over lunch about that experience. I gained a lot from it. I took notes and wrote everything down, everything I learnt about every different platform and what they ran into. The more I did it, the more I started noticing the patterns throughout the conversations. Eg, mentioning they ran into a particular performance issue in a table list. As I started gathering these notes, stuff started to stick out. That becomes important as I make my decision.
+* Talk to the devs and QA who have used each platform - talk to the people who have actually done it. Eg, I know somebody at [AirBnB who did React Native and then pulled out](https://www.theimmigrantprogrammers.com/p/why-airbnb-dumped-react-native?s=r). I talked to them over lunch about that experience. I gained a lot from it. I took notes and wrote everything down, everything I learnt about every different platform and what they ran into. The more I did it, the more I started noticing the patterns throughout the conversations. Eg, mentioning they ran into a particular performance issue in a table list. As I started gathering these notes, stuff started to stick out. That becomes important as I make my decision.
 * Read online articles - there’s a ton of info out there. You’ll find articles on why you should never use React Native and the articles saying that you should always use React Native. You’ll find that for each of the platforms.
 * Research opinions from both sides - it’s important that you look at the articles stating each side of the argument, if you want to understand the whole picture. Try to understand why somebody would suggest you never use a platform. What are the real drawbacks at the core of that article? And the same thing for the reasons to use it.
 * Don’t base your decision on the opinions; however, opinions help us understand experiences of other devs and QA.
@@ -111,7 +111,7 @@ For React Native, you build the components. You have your PhotoItem and PhotoLis
 
 The Flutter version is a little bit longer. In fact some stuff was cut out of the slide. There’s some boiler plate that you’ll need to get from the repo. This is the Flutter sample for the exact same app. And, again, it displays the same list of photos from Unsplash.
 
-Some of the nice things are the built-in widgets that are very similar to the React Native components that are widgets that you can reuse across the components. It’s all built into these different structures/layouts that you can find on the Flutter website. It’s nice that you can build these components that are reusable in Dart.
+Some of the nice things are the built-in widgets that are very similar to the React Native components that are widgets that you can reuse across the components. It’s all built into these different structures/layouts that you can find on the [Flutter](https://flutter.dev/) website. It’s nice that you can build these components that are reusable in [Dart](https://dart.dev/).
 
 **SEPARATE FACT FROM OPINION**
 
