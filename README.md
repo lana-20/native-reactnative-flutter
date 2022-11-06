@@ -1,5 +1,6 @@
 # Cross-Platform (Hybrid-Native) Mobile Applications
 ## [Native, React Native, Flutter &amp; More](https://www.droidcon.com/2019/11/15/native-react-native-flutter-and-more/?video=380953234)
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/native_reactnative_flutter.png)
 
 In this post, I go over the main points in each framework and the process I use to decide which one to use on which project.
 
@@ -16,7 +17,7 @@ Once I got to the point of ‘this is how I’m building/testing mobile apps’,
 Overtime, I’ve come up with my own way to decide.
 I’ll cover each of these platforms a little: React Native, Flutter, Native. Some of the pros and cons of each. Then I’m going to dig into the way I make decisions for each platform, because each one has its own set of goals, just like the NBA example I’ve brought up before. It’s the Los Angeles Lakers, except I'd root for the Clippers sometimes, maybe😏
 
-
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/reactnative.png)
 
 ***React Native***
 
@@ -34,6 +35,7 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 * Bridging can be challenging - bridging on React Native for Android can be a big challenge, even worse than iOS for me personally.
 * Debugging - if you’ve done React Native, you’ve seen the [red screen of death](https://stackoverflow.com/questions/36408309/react-native-run-android-red-screen-of-death) come up. And it [hardly gives any context](https://stackoverflow.com/questions/40903211/react-native-red-screen-error) as to what’s going on.
 
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/flutter.png)
 
 [***Flutter***](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#flutter-2)
 
@@ -50,6 +52,7 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 * Need to bridge to native [platform]
 * Not a lot of devs with experience - consider, as you’re building out a team
 
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/native.png)
 
 ***Native***
 
@@ -105,11 +108,15 @@ Github Repo with React Native and Flutter Prototypes:  https://github.com/Barlow
 
 This is the React Native code for the app. It’s a very simple version. It may not be the best in terms of code quality or optimization, but the point here is to have the code that can fit into one slide, that can do what’s prototyped.
 
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/app_proto.png)
 
 For React Native, you build the components. You have your PhotoItem and PhotoList - these are the components that can be reused on multiple screens, and you display it in a list. This little bit of code built the app. There’s also a bit of network code that is present in the repo. So it pulls the photos, it displays them in a list, you just scroll through them.
 
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/app_reactnative.png)
 
 The Flutter version is a little bit longer. In fact some stuff was cut out of the slide. There’s some boiler plate that you’ll need to get from the repo. This is the Flutter sample for the exact same app. And, again, it displays the same list of photos from Unsplash.
+
+![](https://github.com/lana-20/native-reactnative-flutter/blob/main/app_flutter.png)
 
 Some of the nice things are the built-in widgets that are very similar to the React Native components that are widgets that you can reuse across the components. It’s all built into these different structures/layouts that you can find on the [Flutter](https://flutter.dev/) website. It’s nice that you can build these components that are reusable in [Dart](https://dart.dev/).
 
