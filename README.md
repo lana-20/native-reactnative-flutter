@@ -1,5 +1,6 @@
-# Cross-Platform (Hybrid-Native) Mobile Applications
-## [Native, React Native, Flutter &amp; More](https://www.droidcon.com/2019/11/15/native-react-native-flutter-and-more/?video=380953234)
+# <img src="https://user-images.githubusercontent.com/70295997/216802104-abe821ac-2804-43fe-a492-1207e4f98a59.png" width=40> Mobile Apps: Cross-Platform / Hybrid-Native / Native Once-Removed
+
+### [Native, React Native, Flutter &amp; More](https://www.droidcon.com/2019/11/15/native-react-native-flutter-and-more/?video=380953234)
 
 In this post, I go over the main points in each framework and the process I use to decide which one to use on which project.
 
@@ -65,7 +66,7 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 How do you decide which of these platforms is going to be the best?
 Some of these seem fairly obvious, but for me it took a lot of time working through this over and over to really understand it. Hopefully, the following will help someone else out there who is trying to decide.
 
-***HOW TO DECIDE***
+<img src="https://user-images.githubusercontent.com/70295997/216802163-b5ee64f5-15f4-482a-ba3d-2af456670b89.png" width=40> ***HOW TO DECIDE***
 
 * WRITE DOWN THE GOALS FOR YOUR APP
 * RESEARCH
@@ -73,7 +74,7 @@ Some of these seem fairly obvious, but for me it took a lot of time working thro
 * SEPARATE FACT FROM OPINION
 * WRITE DOWN THE RESULTS
 
-**WRITE DOWN THE GOALS FOR YOUR APP**
+<img src="https://user-images.githubusercontent.com/70295997/216802422-8f2ae3b4-210e-473f-a326-81e4056de49b.png" width=40> **WRITE DOWN THE GOALS FOR YOUR APP**
 
 * What is it that you want your app to do?
   * Performance
@@ -84,14 +85,14 @@ Some of these seem fairly obvious, but for me it took a lot of time working thro
   
 Decide on what your goals for the platform are. Then, most importantly, write it down. It’s important because goals can change over time. But there’s something about writing it down that helps you solidify that this is what we want this platform to be. Sit down with your team, whoever ends up making the decision, whoever the stakeholders are, and write down the goals for your app.
 
-**RESEARCH**
+<img src="https://user-images.githubusercontent.com/70295997/216802218-3f58bd22-634a-477b-bdb8-d5a29c1595c9.png" width=40> **RESEARCH**
 
 * Talk to the devs and QA who have used each platform - talk to the people who have actually done it. Eg, I know somebody at [AirBnB who did React Native and then pulled out](https://www.theimmigrantprogrammers.com/p/why-airbnb-dumped-react-native?s=r). I talked to them over lunch about that experience. I gained a lot from it. I took notes and wrote everything down, everything I learnt about every different platform and what they ran into. The more I did it, the more I started noticing the patterns throughout the conversations. Eg, mentioning they ran into a particular performance issue in a table list. As I started gathering these notes, stuff started to stick out. That becomes important as I make my decision.
 * Read online articles - there’s a ton of info out there. You’ll find articles on why you should never use React Native and the articles saying that you should always use React Native. You’ll find that for each of the platforms.
 * Research opinions from both sides - it’s important that you look at the articles stating each side of the argument, if you want to understand the whole picture. Try to understand why somebody would suggest you never use a platform. What are the real drawbacks at the core of that article? And the same thing for the reasons to use it.
 * Don’t base your decision on the opinions; however, opinions help us understand experiences of other devs and QA.
 
-**PROTOTYPE AND MEASURE**
+<img src="https://user-images.githubusercontent.com/70295997/216802300-81c585cc-e09d-4b80-908e-3761479c7332.png" width=40> **PROTOTYPE AND MEASURE**
 
 There is an app written in both React and Flutter. The dev didn’t do Native. The app is super simple, it just pulls a list of images from Unsplash and displays them in a list. The point is you want to find a way to prototype something similar to what you are building.
 If I were going to build an app that displays a list of photos, maybe a competitor to Instagram, then I want to prototype something simple, not going too deep. Something simple, but something that shows the core goals that I have for my project. And I prototype it in each of the languages. They are all fairly simple to get the project started in. So, it should be easy to jump in, find these resources and prototype.
@@ -113,7 +114,7 @@ The Flutter version is a little bit longer. In fact some stuff was cut out of th
 
 Some of the nice things are the built-in widgets that are very similar to the React Native components that are widgets that you can reuse across the components. It’s all built into these different structures/layouts that you can find on the [Flutter](https://flutter.dev/) website. It’s nice that you can build these components that are reusable in [Dart](https://dart.dev/).
 
-**SEPARATE FACT FROM OPINION**
+<img src="https://user-images.githubusercontent.com/70295997/216802358-6b63e55a-f1c9-49cf-84d0-85b36a8863ee.png" width=40> **SEPARATE FACT FROM OPINION**
 
 Once done with the prototype, you measure your prototype against the goals. It’s important, once you have your prototype, to run it through some instruments that you have to get measures of load time, how much memory you’re using, CPU usage. Some of things that might be important, that you wrote down in the goals for your app, you’ll want to measure your prototype against and see how it performs. Understand that this is just your prototype and it’s not going to be as complex as your app.
 
@@ -123,7 +124,7 @@ Now, you take all this info and separate facts from opinions.
 
 Sit down and try to find a way to boil it down to the facts for each platform. Again, for me that comes from obtaining enough data. You start finding those streams that run through all the articles, the people you’ve talked to, the prototype - so that you can state that you feel confident that is something you can build your app on.
 
-**WRITE DOWN THE RESULTS**
+<img src="https://user-images.githubusercontent.com/70295997/216802470-089a364f-465a-4171-9db7-b186a2e2113a.png" width=40> **WRITE DOWN THE RESULTS**
 
 * Write down what you found.
 * Focusing on the facts and how the results align with your goals [for the platform].
