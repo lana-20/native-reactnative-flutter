@@ -47,9 +47,7 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 * Need to bridge to native [platform]
 * Not a lot of devs with experience - consider, as you’re building out a team
 
-![](https://github.com/lana-20/native-reactnative-flutter/blob/main/native.png)
-
-***Native***
+<img src="https://user-images.githubusercontent.com/70295997/216801904-8b0f2c53-8a08-4a2a-ad9d-bd676175f7b2.png" width=40> ***Native***
 
 **Pros:**
 * Performance - benchmark of React Native and Flutter is as good as native. With Native, you get that out of the box. Assuming that you are conscious of it and writing your code well.
