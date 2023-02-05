@@ -1,6 +1,5 @@
 # Cross-Platform (Hybrid-Native) Mobile Applications
 ## [Native, React Native, Flutter &amp; More](https://www.droidcon.com/2019/11/15/native-react-native-flutter-and-more/?video=380953234)
-![](https://github.com/lana-20/native-reactnative-flutter/blob/main/native_reactnative_flutter.png)
 
 In this post, I go over the main points in each framework and the process I use to decide which one to use on which project.
 
@@ -10,16 +9,14 @@ I approach the choice of platforms in a similar fashion. There are people who lo
 
 When I was first put on a mobile testing team, everything was new - Android, iOS, etc. My devs were figuring how to build out a platform. They wanted to know whether to go the Native route or not. At the time, the options were PhoneGap, Unity, C++, C. 
 
-As the platform continued to mature, things like Zamarin, React Native, Kotlin Native, Flutter, Swift, Web became available. There was so much one could do, and it was challenging to know what to do with all these things. At the time, for most devs, building mobile apps was new. So, we had to decide if we were going to learn Objective C and Java, or jump into something like PhoneGap. It was a hard decision for us, we didn’t know where to start digging in. 
+As the platform continued to mature, things like Xamarin, React Native, Kotlin Native, Flutter, Swift, Web became available. There was so much one could do, and it was challenging to know what to do with all these things. At the time, for most devs, building mobile apps was new. So, we had to decide if we were going to learn Objective C and Java, or jump into something like PhoneGap. It was a hard decision for us, we didn’t know where to start digging in. 
 
 Once I got to the point of ‘this is how I’m building/testing mobile apps’, I’d be able to reuse it for each project that came along. I started working on a new project last year, and encountered the same problem again. Questions such as ‘How are we going to build and test this app?’ and ‘What’s the right solution for us?’
 
 Overtime, I’ve come up with my own way to decide.
 I’ll cover each of these platforms a little: React Native, Flutter, Native. Some of the pros and cons of each. Then I’m going to dig into the way I make decisions for each platform, because each one has its own set of goals, just like the NBA example I’ve brought up before. It’s the Los Angeles Lakers, except I'd root for the Clippers sometimes, maybe😏
 
-![](https://github.com/lana-20/native-reactnative-flutter/blob/main/reactnative.png)
-
-***React Native***
+<img src="https://user-images.githubusercontent.com/70295997/216801662-34b80680-9c0a-4b0e-a51a-ea4e9df13212.png" width=40> ***React Native***
 
 **Pros:**
 * Easy to learn
@@ -35,9 +32,7 @@ I’ll cover each of these platforms a little: React Native, Flutter, Native. So
 * Bridging can be challenging - bridging on React Native for Android can be a big challenge, even worse than iOS for me personally.
 * Debugging - if you’ve done React Native, you’ve seen the [red screen of death](https://stackoverflow.com/questions/36408309/react-native-run-android-red-screen-of-death) come up. And it [hardly gives any context](https://stackoverflow.com/questions/40903211/react-native-red-screen-error) as to what’s going on.
 
-![](https://github.com/lana-20/native-reactnative-flutter/blob/main/flutter.png)
-
-[***Flutter***](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#flutter-2)
+<img src="https://user-images.githubusercontent.com/70295997/216801791-dbcc4818-276f-4c89-96eb-64f4a0ece17b.png" width=40> [***Flutter***](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#flutter-2)
 
 [**Pros:**](https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/#pros-of-flutter-development)
 * Type-safe (Dart)
